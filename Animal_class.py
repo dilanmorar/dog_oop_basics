@@ -6,8 +6,8 @@ class Animal():
         self.alive = True
         self.bones = True
     # define methods
-    def eat(self):
-        return 'nom nom nom'
+    def eat(self, food):
+        return 'nom nom nom ' + food
     def sleep(self):
         return 'zzz'
     def speak(self):
