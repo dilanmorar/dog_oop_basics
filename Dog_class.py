@@ -2,10 +2,10 @@
 from Animal_class import *
 
 class Dog(Animal):
-    def __init__(self, owner, name):
+    def __init__(self, owner, name, colour = 'no colour'):
         self.owner = owner
         self.name = name
-        self.dog_collar = True
+        self.dog_collar = colour
     def eat_bone(self):
         return 'eats bone'
     def run(self):
