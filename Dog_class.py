@@ -12,3 +12,5 @@ class Dog(Animal):
         return 'runs'
     def greet_owner(self):
         return 'licks owner'
+    def speak(self):
+        return 'woof woof'
