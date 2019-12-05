@@ -11,5 +11,5 @@ class Animal():
     def sleep(self):
         return 'zzz'
     def speak(self):
-        return 'noise'
+        return 'blah blah blah'
 
