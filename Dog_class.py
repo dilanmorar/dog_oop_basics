@@ -7,8 +7,8 @@ class Dog(Animal):
         self.name = name
         self.dog_collar = True
     def eat_bone(self):
-        return
+        return 'eats bone'
     def run(self):
-        return
+        return 'runs'
     def greet_owner(self):
-        return
+        return 'licks owner'
